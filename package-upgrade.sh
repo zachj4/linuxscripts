@@ -1,3 +1,3 @@
 #!/bin/bash
-apt update && apt-upgrade -y
+apt update && apt -y full-upgrade
 apt autoremove
